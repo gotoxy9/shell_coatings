@@ -5,10 +5,12 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-	<meta name=”keywords” content="shell coating, coating excellence verytime, powder coating, powder base paint, powder paint, best powder coating, superior powder paint, custom powder paint, advance powder coating powders" />
+	<meta name=”keywords” content="shell coating, spray paint, spray paint bottle, coating excellence verytime, powder coating, powder base paint, powder paint, best powder coating, superior powder paint, custom powder paint, advance powder coating powders" />
 	<link rel="icon" href="img/Tarun.svg" type="image/png">
 	<title>Shell Coatings | Coating Excellence Everytime</title>
 	<!-- Bootstrap CSS -->
+	
+	<link rel="stylesheet" href="css/loader.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -17,10 +19,14 @@
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="scss/style.css">
+	
+
 </head>
 
 <body>
-
+	<div id="loader" class="loader">	
+	</div> 
+	<div id="og-container" >
 	<!--================ Start Header Area =================-->
 	<header class="header_area">
 		<div class="main_menu">
@@ -58,7 +64,7 @@
 					<div class="col-lg-7">
 						<div class="banner_content">
 							<!-- <h3 class="text-uppercase">Shell Coatings</h3> -->
-							<h1 class="text-uppercase custom-heading-color">Custom Powder Coating Paint Solutions</h1>
+							<h1 class="text-uppercase custom-heading-color">Custom Powder Coating Paint Solutions & Spray Paint</h1>
 							<h5 class="text-capitalize custom-heading-color">Experience the Power of Color Customization with Our Advanced Powder Coating Technology</h5>
 							<div class="d-flex align-items-center">
 								<a class="primary_btn" target="_blank" href="https://api.whatsapp.com/send?phone=919321063611"><span>Contact</span></a>
@@ -68,7 +74,7 @@
 					</div>
 					<div class="col-lg-5">
 						<div class="home_right_img">
-							<img class="" src="img/banner/Tarun.svg" alt="shell">
+							<!-- <img class="" src="img/banner/Tarun.svg" alt="shell"> -->
 						</div>
 					</div>
 				</div>
@@ -101,7 +107,7 @@
 							is in beast beginning signs open god you're gathering whose gathered cattle let. 
 							Creature whales fruit unto meat the life beginning all in under give two.
 						</p>
-						<a class="primary_btn" href="#"><span>Download CV</span></a>
+						<a class="primary_btn" href="#"><span>Download Brouser</span></a>
 					</div>
 				</div>
 			</div>
@@ -192,7 +198,7 @@
 							</div>
 							<div class="ml-15">
 								<p>call us now</p>
-								<h3>(+1)-800-555-6789</h3>
+								<h3>(+91) 93210-63611</h3>
 							</div>
 						</div>
 					</div>
@@ -256,7 +262,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="main_title">
-						<h2>Applied </h2>
+						<h2>Where to Applied Powder Coating  </h2>
 						<p>Essentially, powder coating is used wherever a durable, attractive, and environmentally friendly finish is desired on metal surfaces.</p>
 						<p>Powder coating paint is applied to a wide range of metal surfaces across various industries. Here's a breakdown:</p>
 					</div>
@@ -477,6 +483,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Shell
 		</div>
 	</footer>
 	<!--================End Footer Area =================-->
+    </div>
+	<!-- this div is actual web page -->
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -490,6 +498,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Shell
 	<script src="vendors/isotope/isotope-min.js"></script>
 	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
 	<!-- <script src="js/jquery.ajaxchimp.min.js"></script> -->
+
 	
 	<!--gmaps Js-->
 	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script> -->
@@ -531,7 +540,40 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Shell
             
         }
     </script>
+<script> 
+var loader = document.getElementById("loader");
+var ogcontainer = document.getElementById("og-container");
 
+    window.addEventListener("load", function(){
+		loader.style.display = "none";
+		ogcontainer.style.display = "block";
+
+	})
+        
+	// $(window).load(function() {
+    //  $('#loader').addClass('loader-hide');
+    // });
+
+	// window.onload = function() 
+    // {
+    //     //display loader on page load 
+    //     $('#loader').fadeOut();
+    // }
+
+	// document.onreadystatechange = function () {
+    //         if (document.readyState !== "complete") {
+    //             document.querySelector(
+    //                 "body").style.visibility = "hidden";
+    //             document.querySelector(
+    //                 "#loader").style.visibility = "visible";
+    //         } else {
+    //             document.querySelector(
+    //                 "#loader").style.display = "none";
+    //             document.querySelector(
+    //                 "body").style.visibility = "visible";
+    //         }
+    //     };
+    </script>
 </body>
 
 </html>

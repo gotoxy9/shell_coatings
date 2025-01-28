@@ -426,12 +426,13 @@ button:focus {
   width: 100%;
 }
 .home_banner_area .banner_inner .home_right_img {
-  padding-top: 197px;
+  padding-top: 250px;
+  height: 700px;
 }
 @media (max-width: 1480px) {
   .home_banner_area .banner_inner .home_right_img img {
     max-width: 100%;
-    height: auto;
+    height: 350px;
   }
 }
 @media (max-width: 991px) {
