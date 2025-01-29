@@ -1,6 +1,16 @@
 /* Start About Us Area css
 ============================================================================================ */
 /* editing */
+
+
+
+#owl-demo .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
 .contact-icon {
 	padding-top: 10px;
 	text-align: left;
@@ -37,7 +47,7 @@
 			}
 		}
 		@media (max-width: 991px) {
-			display: none;
+			// display: none;
 		}
 	}
 }
@@ -422,7 +432,9 @@
 }
 
 .subscription_box {
-	background: url(../img/subscribe-bg.png)  center;
+	background: url(../img/subscribe-bg.png) center ;
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 150px 0px;
 	@media (max-width: 767px) {
 		padding: 50px 20px;

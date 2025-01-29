@@ -9,7 +9,9 @@
 	}
 }
 .footer_area {
-	padding: 120px 0;
+	padding-top: 60px;
+	padding-bottom: 0px;
+	background-color: #f5f5dc;
 	position: relative;
 	&:before {
 		content: '';
@@ -22,7 +24,8 @@
 		z-index: -1;
 	}
 	@media (max-width: 1024px) {
-		padding: 60px 0;
+		padding-top: 60px;
+		
 	}
 	.footer_logo {
 		text-align: center;
@@ -54,8 +57,9 @@
 
 	.footer_bottom {
 		text-align: center;
+		background-color: #f48120;
 		p {
-			margin-bottom: 0;
+			margin: 10px 0;
 		}
 		a {
 			color: $primary-color2;
