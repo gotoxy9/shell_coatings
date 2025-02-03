@@ -40,6 +40,11 @@
 @media (max-width: 991px) {
 	/* Main Menu Area css
 	============================================================================================ */
+	.tagline {
+		margin-left: 10px; /* Adjust the margin to position tagline */
+		color:#fff;
+		font-size: medium;
+	  }
 	.navbar-toggler {
 		border: none;
 		border-radius: 0px;

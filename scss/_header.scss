@@ -3,6 +3,20 @@
   .activebar {
     color: #4458dc;
   }
+  .logo-container {
+    display: flex;  /* Use flexbox to position elements */
+    align-items: center;  /* Vertically center items */
+  }
+  
+  .tagline {
+    margin-left: 10px; /* Adjust the margin to position tagline */
+    font-size: medium;
+  }
+  .tagline-footer {
+    margin-left: 10px;
+    font-size: medium;
+    color: #000;
+  }
 .header_area {
     position: absolute;
     width: 100%;
